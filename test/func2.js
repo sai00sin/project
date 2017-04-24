@@ -10,13 +10,29 @@
 
 http://d.hatena.ne.jp/m-hiyama/20070208/1170905900
 
+λx.(λy.x)
+
+4,2
+
+
+λx(λyx)
+
+λx{
+	λyx
+}
+
+function (x) {
+	function y * x
+}
+
+
+
 */
 
-var y = function (x) {
-	return x * x;
-}(3)
 
-console.log(y);
+
+
+
 
 /*
 y= 3x+5について次の問に答えよ。
