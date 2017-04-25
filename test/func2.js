@@ -10,27 +10,19 @@
 
 http://d.hatena.ne.jp/m-hiyama/20070208/1170905900
 
-λx.(λy.x)
-
-4,2
-
-
-λx(λyx)
-
-λx{
-	λyx
-}
-
-function (x) {
-	function y * x
-}
-
-
-
 */
 
+/*
+var answer (function (x, y) {
+	return f(y, x);
+})(5,2)
+*/
 
+var answer = (function (x) {
+	return h(g(x));
+})(5)
 
+console.log(answer)
 
 
 
