@@ -18,9 +18,7 @@ var answer (function (x, y) {
 })(5,2)
 */
 
-var answer = (function (x) {
-	return h(g(x));
-})(5)
+var answer = (function (x, y) {return g(f(x, y));})(2, 5)
 
 console.log(answer)
 
