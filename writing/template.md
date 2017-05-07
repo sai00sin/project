@@ -60,3 +60,8 @@ texttexttexttexttexttexttexttexttext
 画像掲載ご協力：
 [@●●●][link]様、[@●●●][link]様
 [link]:yahoo.co.jp
+
+
+[ここ][link-1] と [この][link-1] リンクは同じになります。
+[link-1][] も可能です。
+[link-1]:http://qiita.com/drafts/c686397e4a0f4f11683d
