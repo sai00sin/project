@@ -1,9 +1,24 @@
 object Main {
   def main(args: Array[String]) :Unit = {
-  	val inc = (x: Int) => x +1
-  	println(((x:Int) => {
-  x * x
-}:Int)(2))
-    // λ(x).(x*x)
+
+
+
+
+/*
+ 	λa.(λx.a)は
+
+  	println(((a: Int) => (x: Int) => a)(5)(2))
+*/
+
+/*
+	λ(x, y).f(y, x)は
+
+	def f(x: Int, y: Int) = {
+		x + 3 * y
+	}
+
+	println(((x: Int, y: Int) => f(y, x))(2, 5))
+*/
+
   }
 }
