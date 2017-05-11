@@ -36,9 +36,21 @@ object Main {
 	println(((x: Int, y: Int) => g(f(x, y)))(3, 9))
 */
 
-	val inc: Int => Int = x => x + 1
+/*
+def fact(n: Int): Int = {
+  n match {
+    case 0 => 1
+    case n if n > 0 => n * fact(n - 1)
+  }
+}
+println(fact(5))
+println(fact(0))	
+*/
 
-	println(inc(8))
+	val a = 1
+	val b: Int => Int = x => x + 1
+
+	println(b(a))
 
   }
 }
