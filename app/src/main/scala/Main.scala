@@ -10,9 +10,7 @@ object Main {
     val browser = JsoupBrowser()
 
 
-    val str = "cat foo.txt"
-    println(str)
 
-
+    println(Process("ls public/images/") run)
   }
 }
