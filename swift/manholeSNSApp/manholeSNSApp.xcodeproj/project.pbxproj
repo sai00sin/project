@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB9690C218D542E00AEE041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9690B218D542E00AEE041 /* AppDelegate.swift */; };
+		CEB9690E218D542E00AEE041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9690D218D542E00AEE041 /* ViewController.swift */; };
+		CEB96911218D542E00AEE041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB9690F218D542E00AEE041 /* Main.storyboard */; };
+		CEB96913218D542F00AEE041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB96912218D542F00AEE041 /* Assets.xcassets */; };
+		CEB96916218D542F00AEE041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB96914218D542F00AEE041 /* LaunchScreen.storyboard */; };
+		CEB96921218D542F00AEE041 /* manholeSNSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB96920218D542F00AEE041 /* manholeSNSAppTests.swift */; };
+		CEB9692C218D542F00AEE041 /* manholeSNSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9692B218D542F00AEE041 /* manholeSNSAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB9691D218D542F00AEE041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB96900218D542E00AEE041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB96907218D542E00AEE041;
+			remoteInfo = manholeSNSApp;
+		};
+		CEB96928218D542F00AEE041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB96900218D542E00AEE041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB96907218D542E00AEE041;
+			remoteInfo = manholeSNSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB96908218D542E00AEE041 /* manholeSNSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = manholeSNSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB9690B218D542E00AEE041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEB9690D218D542E00AEE041 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEB96910218D542E00AEE041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB96912218D542F00AEE041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB96915218D542F00AEE041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB96917218D542F00AEE041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB9691C218D542F00AEE041 /* manholeSNSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = manholeSNSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB96920218D542F00AEE041 /* manholeSNSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manholeSNSAppTests.swift; sourceTree = "<group>"; };
+		CEB96922218D542F00AEE041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB96927218D542F00AEE041 /* manholeSNSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = manholeSNSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB9692B218D542F00AEE041 /* manholeSNSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = manholeSNSAppUITests.swift; sourceTree = "<group>"; };
+		CEB9692D218D542F00AEE041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB96905218D542E00AEE041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB96919218D542F00AEE041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB96924218D542F00AEE041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB968FF218D542E00AEE041 = {
+			isa = PBXGroup;
+			children = (
+				CEB9690A218D542E00AEE041 /* manholeSNSApp */,
+				CEB9691F218D542F00AEE041 /* manholeSNSAppTests */,
+				CEB9692A218D542F00AEE041 /* manholeSNSAppUITests */,
+				CEB96909218D542E00AEE041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB96909218D542E00AEE041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB96908218D542E00AEE041 /* manholeSNSApp.app */,
+				CEB9691C218D542F00AEE041 /* manholeSNSAppTests.xctest */,
+				CEB96927218D542F00AEE041 /* manholeSNSAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB9690A218D542E00AEE041 /* manholeSNSApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9690B218D542E00AEE041 /* AppDelegate.swift */,
+				CEB9690D218D542E00AEE041 /* ViewController.swift */,
+				CEB9690F218D542E00AEE041 /* Main.storyboard */,
+				CEB96912218D542F00AEE041 /* Assets.xcassets */,
+				CEB96914218D542F00AEE041 /* LaunchScreen.storyboard */,
+				CEB96917218D542F00AEE041 /* Info.plist */,
+			);
+			path = manholeSNSApp;
+			sourceTree = "<group>";
+		};
+		CEB9691F218D542F00AEE041 /* manholeSNSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB96920218D542F00AEE041 /* manholeSNSAppTests.swift */,
+				CEB96922218D542F00AEE041 /* Info.plist */,
+			);
+			path = manholeSNSAppTests;
+			sourceTree = "<group>";
+		};
+		CEB9692A218D542F00AEE041 /* manholeSNSAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9692B218D542F00AEE041 /* manholeSNSAppUITests.swift */,
+				CEB9692D218D542F00AEE041 /* Info.plist */,
+			);
+			path = manholeSNSAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB96907218D542E00AEE041 /* manholeSNSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB96930218D542F00AEE041 /* Build configuration list for PBXNativeTarget "manholeSNSApp" */;
+			buildPhases = (
+				CEB96904218D542E00AEE041 /* Sources */,
+				CEB96905218D542E00AEE041 /* Frameworks */,
+				CEB96906218D542E00AEE041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = manholeSNSApp;
+			productName = manholeSNSApp;
+			productReference = CEB96908218D542E00AEE041 /* manholeSNSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB9691B218D542F00AEE041 /* manholeSNSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB96933218D542F00AEE041 /* Build configuration list for PBXNativeTarget "manholeSNSAppTests" */;
+			buildPhases = (
+				CEB96918218D542F00AEE041 /* Sources */,
+				CEB96919218D542F00AEE041 /* Frameworks */,
+				CEB9691A218D542F00AEE041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB9691E218D542F00AEE041 /* PBXTargetDependency */,
+			);
+			name = manholeSNSAppTests;
+			productName = manholeSNSAppTests;
+			productReference = CEB9691C218D542F00AEE041 /* manholeSNSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEB96926218D542F00AEE041 /* manholeSNSAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB96936218D542F00AEE041 /* Build configuration list for PBXNativeTarget "manholeSNSAppUITests" */;
+			buildPhases = (
+				CEB96923218D542F00AEE041 /* Sources */,
+				CEB96924218D542F00AEE041 /* Frameworks */,
+				CEB96925218D542F00AEE041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB96929218D542F00AEE041 /* PBXTargetDependency */,
+			);
+			name = manholeSNSAppUITests;
+			productName = manholeSNSAppUITests;
+			productReference = CEB96927218D542F00AEE041 /* manholeSNSAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB96900218D542E00AEE041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Saishin Inoue";
+				TargetAttributes = {
+					CEB96907218D542E00AEE041 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CEB9691B218D542F00AEE041 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CEB96907218D542E00AEE041;
+					};
+					CEB96926218D542F00AEE041 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CEB96907218D542E00AEE041;
+					};
+				};
+			};
+			buildConfigurationList = CEB96903218D542E00AEE041 /* Build configuration list for PBXProject "manholeSNSApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB968FF218D542E00AEE041;
+			productRefGroup = CEB96909218D542E00AEE041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB96907218D542E00AEE041 /* manholeSNSApp */,
+				CEB9691B218D542F00AEE041 /* manholeSNSAppTests */,
+				CEB96926218D542F00AEE041 /* manholeSNSAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB96906218D542E00AEE041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB96916218D542F00AEE041 /* LaunchScreen.storyboard in Resources */,
+				CEB96913218D542F00AEE041 /* Assets.xcassets in Resources */,
+				CEB96911218D542E00AEE041 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB9691A218D542F00AEE041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB96925218D542F00AEE041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB96904218D542E00AEE041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB9690E218D542E00AEE041 /* ViewController.swift in Sources */,
+				CEB9690C218D542E00AEE041 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB96918218D542F00AEE041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB96921218D542F00AEE041 /* manholeSNSAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB96923218D542F00AEE041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB9692C218D542F00AEE041 /* manholeSNSAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB9691E218D542F00AEE041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB96907218D542E00AEE041 /* manholeSNSApp */;
+			targetProxy = CEB9691D218D542F00AEE041 /* PBXContainerItemProxy */;
+		};
+		CEB96929218D542F00AEE041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB96907218D542E00AEE041 /* manholeSNSApp */;
+			targetProxy = CEB96928218D542F00AEE041 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB9690F218D542E00AEE041 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB96910218D542E00AEE041 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB96914218D542F00AEE041 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB96915218D542F00AEE041 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB9692E218D542F00AEE041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEB9692F218D542F00AEE041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB96931218D542F00AEE041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = manholeSNSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.manholeSNSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB96932218D542F00AEE041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = manholeSNSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.manholeSNSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEB96934218D542F00AEE041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = manholeSNSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.manholeSNSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/manholeSNSApp.app/manholeSNSApp";
+			};
+			name = Debug;
+		};
+		CEB96935218D542F00AEE041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = manholeSNSAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.manholeSNSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/manholeSNSApp.app/manholeSNSApp";
+			};
+			name = Release;
+		};
+		CEB96937218D542F00AEE041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = manholeSNSAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.manholeSNSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = manholeSNSApp;
+			};
+			name = Debug;
+		};
+		CEB96938218D542F00AEE041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = manholeSNSAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.manholeSNSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = manholeSNSApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB96903218D542E00AEE041 /* Build configuration list for PBXProject "manholeSNSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB9692E218D542F00AEE041 /* Debug */,
+				CEB9692F218D542F00AEE041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB96930218D542F00AEE041 /* Build configuration list for PBXNativeTarget "manholeSNSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB96931218D542F00AEE041 /* Debug */,
+				CEB96932218D542F00AEE041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB96933218D542F00AEE041 /* Build configuration list for PBXNativeTarget "manholeSNSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB96934218D542F00AEE041 /* Debug */,
+				CEB96935218D542F00AEE041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB96936218D542F00AEE041 /* Build configuration list for PBXNativeTarget "manholeSNSAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB96937218D542F00AEE041 /* Debug */,
+				CEB96938218D542F00AEE041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB96900218D542E00AEE041 /* Project object */;
+}
